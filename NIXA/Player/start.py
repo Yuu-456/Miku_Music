@@ -61,12 +61,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("👮 ᴏᴡɴᴇʀ", url="https://t.me/Mr_DiSasTer_XD"),
-                InlineKeyboardButton("🗨️ ᴜꜱᴇʀꜱ", callback_data="users"),
+                InlineKeyboardButton(" ᴏᴡɴᴇʀ", url="https://t.me/Mr_nack_nack"),
+                InlineKeyboardButton(" ᴜꜱᴇʀꜱ", callback_data="users"),
             ],
             [
-                InlineKeyboardButton("🤬 ʀᴀɪᴅ", callback_data="raid"),
-                InlineKeyboardButton("🗨️ sᴘᴀᴍ", callback_data="spam"),
+                InlineKeyboardButton(" ʀᴀɪᴅ", callback_data="raid"),
+                InlineKeyboardButton(" sᴘᴀᴍ", callback_data="spam"),
             ],
             [
                 InlineKeyboardButton("» ʙᴀᴄᴋ «", callback_data="home"),
@@ -90,14 +90,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
             ],
             [
-                InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("📢 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/TechQuard"),
+                InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Miku_updates"),
             ],
             [
-                InlineKeyboardButton("♨️ sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Sumit9969/NIXA-MUSIC-BOT"),
+                InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://github.com/Alonebots"),
             ],
             [
-                InlineKeyboardButton("📄 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
+                InlineKeyboardButton(" ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -187,14 +187,14 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
             ],
             [
-                InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("📢 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/TechQuard"),
+                InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Miku_updates"),
             ],
             [
-                InlineKeyboardButton("♨️ sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Sumit9969/NIXA-MUSIC-BOT"),
+                InlineKeyboardButton(" ᴏᴡɴᴇʀ", url="https://github.com/Alonebots"),
             ],
             [
-                InlineKeyboardButton("📄 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
+                InlineKeyboardButton(" ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -206,12 +206,12 @@ async def help(client: Client, message: Message):
     self.username = get_me.username
     buttons =  [
             [
-                InlineKeyboardButton("👮 ᴏᴡɴᴇʀ", url="https://t.me/Mr_DiSasTer_XD"),
-                InlineKeyboardButton("🗨️ ᴜꜱᴇʀꜱ", callback_data="users"),
+                InlineKeyboardButton(" ᴏᴡɴᴇʀ", url="https://t.me/Mr_nack_nack"),
+                InlineKeyboardButton("🗨 ᴜꜱᴇʀꜱ", callback_data="users"),
             ],
             [
-                InlineKeyboardButton("🤬 ʀᴀɪᴅ", callback_data="raid"),
-                InlineKeyboardButton("🗨️ sᴘᴀᴍ", callback_data="spam"),
+                InlineKeyboardButton(" ʀᴀɪᴅ", callback_data="raid"),
+                InlineKeyboardButton(" sᴘᴀᴍ", callback_data="spam"),
             ],
             [
                 InlineKeyboardButton("» ʙᴀᴄᴋ «", callback_data="home"),
