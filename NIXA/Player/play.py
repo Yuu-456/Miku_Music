@@ -302,7 +302,7 @@ async def play(c: Client, m: Message):
                     else:
                         try:
                             await suhu.edit(
-                            f"**ᴅᴏᴡɴʟᴏᴀᴅᴇʀ**\n\n**ᴛɪᴛʟᴇ**: {title[:22]}\n\n100% ████████████100%\n\n**ᴛɪᴍᴇ ᴛᴀᴋᴇɴ**: 00:00 Seconds\n\n**ᴄᴏɴᴠᴇʀᴛɪɴɢ ᴀᴜᴅɪᴏ[ғғᴍᴘᴇɢ ᴘʀᴏᴄᴇss]**"
+                            f"**sᴇᴀʀᴄʜɪɴɢ ғᴏʀ ʏᴏᴜ ᴍᴏɪ ʟᴜʙ ❣️ ᴡᴀɪᴛ...**\n\n**ᴛɪᴛʟᴇ**: {title[:22]}\n\n100% ████████████100%\n\n**ᴛɪᴍᴇ ᴛᴀᴋᴇɴ**: 00:00 Seconds\n\n**ᴄᴏɴᴠᴇʀᴛɪɴɢ ᴀᴜᴅɪᴏ[ғғᴍᴘᴇɢ ᴘʀᴏᴄᴇss]**"
                         )
                             await call_py.join_group_call(
                                 chat_id,
