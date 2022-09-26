@@ -1,6 +1,6 @@
 <h2 align="centre"> ɴɪxᴀ ᴍᴜsɪᴄ+sᴘᴀᴍ ʙᴏᴛ </h2>
 
-### ɴɪxᴀ ᴍᴜsɪᴄ+sᴘᴀᴍ ʙᴏᴛ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
+### ᴍɪᴋᴜ ᴍᴜsɪᴄ+sᴘᴀᴍ ʙᴏᴛ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
 <p align="center"><a href="https://t.me/TechQuard"><img src="https://telegra.ph/file/780a3304a447b5b53b3b0.jpg" width="300"></a></p>
 <p align="center">
