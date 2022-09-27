@@ -7,8 +7,8 @@ from NIXA.main import Test, bot as Client
 from config import UPDATES_CHANNEL, GROUP_SUPPORT, BOT_USERNAME
 
 
-ALIVE_GIF = "https://telegra.ph/file/72f3955da698f8e4c96d1.mp4"
-START_GIF = "https://telegra.ph/file/72f3955da698f8e4c96d1.mp4"
+ALIVE_MEDIA = "https://telegra.ph/file/72f3955da698f8e4c96d1.mp4"
+START_MEDIA = "https://telegra.ph/file/72f3955da698f8e4c96d1.mp4"
 HOME_TEXT = " **ʜᴇʟʟᴏ [{}](tg://user?id={})** \n\n**ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.** **ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ **"
 HELP_TEXT = """ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ 
 » **sᴇᴛᴜᴘ ɢᴜɪᴅᴇ** :
@@ -200,7 +200,7 @@ async def start(client: Client, message: Message):
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_video(video= START_GIF, caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
+    await message.reply_video(video= START_MEDIA, caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
 
 @Client.on_message(filters.command(["help"]) & filters.private)
 async def help(client: Client, message: Message):
@@ -221,4 +221,4 @@ async def help(client: Client, message: Message):
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_video(video= ALIVE_GIF, caption=f"{HELP_TEXT}", reply_markup=reply_markup)
+    await message.reply_video(video= ALIVE_MEDIA, caption=f"{HELP_TEXT}", reply_markup=reply_markup)
