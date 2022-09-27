@@ -4,7 +4,7 @@ from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.errors import MessageNotModified
 from NIXA.main import Test, bot as Client
-from config import START_MEDIA, UPDATES_CHANNEL, GROUP_SUPPORT, BOT_USERNAME
+from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT, BOT_USERNAME
 
 
 ALIVE_PIC = START_PIC="https://telegra.ph/file/72f3955da698f8e4c96d1.mp4"
