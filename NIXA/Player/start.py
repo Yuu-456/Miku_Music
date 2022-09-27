@@ -192,6 +192,7 @@ async def start(client: Client, message: Message):
             ],
             [
                 InlineKeyboardButton("【V๏ɪ፝֟𝔡】◈Network◈", url="https://t.me/VoidxNetwork"),
+                InlineKeyboardButton(" ᴏᴡɴᴇʀ ✨", url="https://t.me/Mr_nack_nack"),
             ],
             [
                 InlineKeyboardButton(" ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
