@@ -20,7 +20,7 @@ from pytgcalls.types.input_stream.quality import (
     MediumQualityVideo,
 )
 from youtubesearchpython import VideosSearch
-IMAGE_THUMBNAIL = "https://te.legra.ph/file/7efcc30c166d793ed98a5.jpg"
+IMAGE_THUMBNAIL = "https://telegra.ph/file/de91427fe131a0578cfb4.jpg"
 
 
 def ytsearch(query: str):
@@ -182,8 +182,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TechQuardSupport"),
-                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
+                            InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ", url="https://t.me/Miku_Support"),
+                            InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Miku_updates")
                         ],
                         [
                             InlineKeyboardButton(" ᴄʟᴏsᴇ ", callback_data="cls")
@@ -259,8 +259,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TechQuardSupport"),
-                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
+                            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/Miku_Support"),
+                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Miku_updates")
                         ],
                         [
                             InlineKeyboardButton(" ᴄʟᴏsᴇ ", callback_data="cls")
